@@ -1,0 +1,44 @@
+<!-- quiz.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="panel">
+        <div id="categorySelection">
+            <label for="category">Choose a Category:</label>
+            <select id="category">
+                <option value="cpp">C++</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+            </select>
+            <button id="startQuizBtn">Start Quiz</button>
+        </div>
+        <div id="pastScores">
+            <button id="pastScores">Past Scores</button>
+        </div>
+        <div id="proficiencyLevels"></div>
+        <div id="quizContent" style="display: none;">
+            <div class="question" id="ques"></div>
+            <div class="options" id="opt"></div>
+            <div id="timer">Time Left: 0</div>
+            <div id="review"></div>
+            <button id="submitBtn">SUBMIT</button>
+            <div id="score"></div>
+            <div id="restart-btn" onclick="reStart()" style="display: none;">RESTART</div>
+            <div id="logout-btn" onclick="mainPage()" style="display: none;">LOG OUT</div>
+        </div>
+
+        <script src="frontend.js"></script>
+        <script src="quiz.js"></script> 
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="panel">
+        <h1>Language Quiz Application</h1>
+
+        <div id="loginForm">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Log In</button>
+            <button onclick="showRegistration()">Register</button>
+        </div>
+
+        <div id="registrationForm" style="display: none;">
+            <input type="text" id="newUsername" placeholder="New Username">
+            <input type="password" id="newPassword" placeholder="New Password">
+            <button onclick="createUser()">Create User</button>
+            <button onclick="hideRegistration()">Cancel</button>
+        </div>
+
+        <script src="frontend.js"></script>
+    </div>
+</body>
+
+</html>

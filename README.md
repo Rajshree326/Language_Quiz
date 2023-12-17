@@ -34,7 +34,7 @@ Before you begin, ensure you have met the following requirements:
     npm install
     ```
 
-4. Create a .env file in the project root with the following content:
+4. Create a .env file in the project root (Language_Quiz folder) with the following content:
 
     ```
     MONGODB_URI=your_mongodb_uri_here

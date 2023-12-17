@@ -28,19 +28,26 @@ Before you begin, ensure you have met the following requirements:
     npm install
     ```
 
-3. Create a .env file in the project root with the following content:
+3. Go to the Language_Quiz folder
+   
+   ```
+   cd Language_Quiz
+   ```
+
+
+5. Create a .env file in the project root with the following content:
 
     ```
     MONGODB_URI=your_mongodb_uri_here
     ```
 
-4. Start the application:
+6. Start the application:
 
     ```
     node server.js
     ```
 
-5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+7. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
 
 

@@ -22,32 +22,31 @@ Before you begin, ensure you have met the following requirements:
     git clone https://github.com/Rajshree326/Language_Quiz.git
     ```
 
-2. Install dependencies:
+2. Go to the Language_Quiz folder
+   
+   ```
+   cd Language_Quiz
+   ```
+   
+3. Install dependencies:
 
     ```
     npm install
     ```
 
-3. Go to the Language_Quiz folder
-   
-   ```
-   cd Language_Quiz
-   ```
-
-
-5. Create a .env file in the project root with the following content:
+4. Create a .env file in the project root with the following content:
 
     ```
     MONGODB_URI=your_mongodb_uri_here
     ```
 
-6. Start the application:
+5. Start the application:
 
     ```
     node server.js
     ```
 
-7. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+6. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
 
 

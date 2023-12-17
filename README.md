@@ -19,7 +19,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your-username/your-project.git
+    git clone https://github.com/Rajshree326/Language_Quiz.git
     ```
 
 2. Install dependencies:
